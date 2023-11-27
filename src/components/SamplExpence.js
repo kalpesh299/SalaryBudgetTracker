@@ -27,7 +27,7 @@ dispatch({type:"DELETE_EXPENSE",payload:id})
 }
   return (
     <div className='flex flex-col items-center'>
-
+<h1 className='font-bold text-black text-4xl p-4'>Salary Budget Tracker</h1>
 <div className='flex flex-col md:flex-row w-screen justify-evenly p-4 bg-gray-300'  >
 <h1 className='bg-green-600 mt-2 p-4 text-center text-white text-xl font-bold rounded-xl'>Total:{state.total}</h1>
       <h1 className='bg-yellow-600 mt-2 text-center p-4 text-white  text-xl  font-bold rounded-xl'>Bal:{state.bal}</h1>
